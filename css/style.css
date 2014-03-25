@@ -1,0 +1,243 @@
+/* ============================ */
+/* COLORS  */
+/* 
+	White:				#fff;
+	Light Grey:			#f7f7f7;
+	Light Dirty Grey:	#eff1f2;
+	Grey:				#7f8c8d;
+	Black:				#000;
+
+	Karo Red:			#bc2a0a;
+	Karo Red Sdw:		#852609;
+	Karo Blue:			#2c3e50;
+
+	Red:				#dc2026;
+	Green:				#00ada7;
+	Blue:				#3598dc;
+	Orange:				#f19b13;
+	Dark Blue:			#095581;
+*/
+
+
+/* ============================ */
+/* CSS RESET */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
+form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+aside,canvas,details,embed, figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,time,mark,audio,video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section{
+	display : block;
+}
+
+body{
+	line-height: 1;
+}
+
+ol, ul{
+	list-style: none;
+}
+
+blockquote, q{
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============================ */
+/* fluid images */
+img,embed,object,video,iframe{
+	max-width:100%;
+}
+
+
+
+
+
+
+
+
+
+/* ============================ */
+/* HEADER */
+#header{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.header-bg{
+	width: 100%;
+	height: 100%;
+	/*background: #ff0;*/
+}
+
+.video-holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/pattern-overlay.png);
+}
+
+.logo{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	background: url(../img/logo-big.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================ */
+/* ============================ */
+/* ============================ */
+/* MEDIA QUERIES */
+@media only screen and (max-width: 360px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 361px) and (max-width: 480px)  {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
