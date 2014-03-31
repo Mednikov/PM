@@ -1,7 +1,7 @@
 if(typeof Object.create!=="function"){
 Object.create=function(o){
 function F(){
-};
+};//i can ruin everithing hahaha
 F.prototype=o;
 return new F();
 };
